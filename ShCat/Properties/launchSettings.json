@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ShCat": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\wks\\code\\02nervathirdparty\\chrome\\mac\\Chromium.app\\Contents\\Frameworks\\Chromium Framework.framework\\Versions\\87.0.4280.88\\Libraries\\WidevineCdm\\manifest.json\""
+    }
+  }
+}
