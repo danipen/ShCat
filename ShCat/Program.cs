@@ -104,7 +104,7 @@ namespace ShCat
             try
             {
                 // TODO: find a multiplatform way to draw bg, fg and bold/italic text for the console
-                Color foregroundColor = foreground == -1 ? Color.White : ColorTranslator.FromHtml(theme.GetColor(foreground));
+                Color foregroundColor = ColorTranslator.FromHtml(theme.GetColor(foreground));
                 Colorful.Console.Write(text, foregroundColor);
 
             }
